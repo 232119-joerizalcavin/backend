@@ -1,0 +1,46 @@
+﻿# Laravel
+/vendor/
+.env
+.env.local
+.env.*.local
+.env.backup
+.env.production.backup
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Testing
+/storage/framework/testing/
+.phpunit.result.cache
+
+# Cache
+/bootstrap/cache/
+/storage/framework/cache/
+/storage/logs/
+
+# Public storage
+/public/storage
+
+# Database
+*.sqlite
+*.sqlite3
+.db
+
+# IDE specific
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+.Thumbs.db
+
+# Local development
+.rnd
